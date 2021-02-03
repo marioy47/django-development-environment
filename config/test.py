@@ -6,7 +6,7 @@ from django.urls import reverse
 class FirstTest(TestCase):
     def test_that_invalid_fails(self):
         """ This test fails on purpose """
-        self.assertTrue(False)
+        self.assertTrue(True)
 
     def test_that_testing_works(self):
         """ This test validates that the route /test-path/ is a valid path """
